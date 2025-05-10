@@ -11,49 +11,57 @@
     <div class="header">
         <img id="tentacles" src="assets/tentacles.png">
         <h1 class="header-text">Sea Monster Crowdfunding</h1>
+        <a href="#games-section" ><p class="games-button">Games</p></a>
     </div>
 
     <!-- background info about company -->
-    <h2>Welcome to Sea Monster!</h2>
+    <h1 style="text-align: center">Welcome to Sea Monster!</h1>
     <div id="description-container">
-        <p>The purpose of our company is to fund independent games. We've been in operation for 12 years.</p>
+        <p style="text-align: center">The purpose of our company is to fund independent games. We've been in operation for 12 years.</p>
     </div>
 
     <!-- top games & other interesting stats -->
-    <h2>Stats</h2>
+    <h1 class="games-head">Stats</h1>
     <div class="stats-container">
         <div class="stats-card">
             <h3>Individual Contributions</h3>
-            <p id="num-contributions">
+            <p style="color: black" id="num-contributions">
             </p>
         </div>
         <div class="stats-card">
             <h3>Total Raised</h3>
-            <p id="total-raised">
+            <p style="color: darkgreen" id="total-raised">
             </p>
         </div>
         <div class="stats-card">
             <h3>Total Number of Games</h3>
-            <p id="num-games">
+            <p style="color: black" id="num-games">
             </p>
         </div>
     </div>
-    <div class="stats-container" id="top-games">
+    <div class="stats2-container" id="top-games">
         <div class="stats-card" id="first-game">
-            <h3>🥇 Top Funded Game</h3>
+            <h3 style="color: gold">🥇 Top Funded Game</h3>
         </div>
         <div class="stats-card" id="second-game">
-            <h3>🥈 Runner Up</h3>
+            <h3 style="color: rgb(146, 143, 143)">🥈 Runner Up</h3>
         </div>
     </div>
 
     <!-- list of games funded by Sea Monster -->
-    <h2>Our Games</h2>
-    <p>Check out each of our games below!</p>
+    <h1 class="games-head"><a id="games-section">Our Games</a></h1>
+    <p class="games-head">Check out each of our games below!</p>
+
+    <div class="search-container">
+        <input type="text" placeholder="Search" class="search" id="search">
+        <p id="errorP"></p>
+      </div>
+      
+    
     <div id="button-container">
-        <button id="unfunded-btn">Show Unfunded Only</button>
-        <button id="funded-btn">Show Funded Only</button>
-        <button id="all-btn">Show All Games</button>
+        <button class = "reg-buttons" id="unfunded-btn">Show Unfunded Only</button>
+        <button class = "reg-buttons" id="funded-btn">Show Funded Only</button>
+        <button class = "reg-buttons" id="all-btn">Show All Games</button>
     </div>
     <div id="games-container">
 
