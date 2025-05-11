@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [x] A nav-bar button on the header navigates to the games section for quick and easy access.
+* [x] A nav-bar button on the header that navigates to the games section for quick and easy access.
 * [x] The games section includes a search bar for anyone looking for a specific game, and displays only that game to the user.
 * [x] Other CSS additions to make it more visually appealing!
 
